@@ -16,6 +16,9 @@ Python (google colab) - numpy, pandas, seaborn, matlplotlib, sklearn
 - Principal Component Analysis (PCA) was used for visualisation
 - Comparisons made between the techniques results
 
+<img width="699" height="304" alt="image" src="https://github.com/user-attachments/assets/c2ad23dc-1285-40db-8771-5a880d3a4aa5" />
+
+
 🚦 Running the Project
 ---
 ipynb file can be run directly on google colab
