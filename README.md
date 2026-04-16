@@ -1,29 +1,37 @@
-🎬Anomaly Detection
+🎬Anomaly Detection - Summary
 ---
-An ..............., built with .... 
+This project explores different approaches to detecting anomalous activity within a ship’s engine dataset. The work focuses on applying statistical and machine learning techniques, analysing how their results differ, and understanding the trade‑offs between interpretability, visualisation, and model output. 
 
 ✨ Technologies
 ---
-Python
-...
+Python (google colab) - numpy, pandas, seaborn, matlplotlib, sklearn
 
-🚀 Features
+🚀 Approach
 ---
-.....
-detects with...
-
-📍 The Process
----
-I've been on a mission to .........
+- Exploratory data analysis (EDA) of engine sensor data - checking for missing, duplicates, distribution.
+- Application of three anomaly detection techniques on the same dataset, with data standardised where required.
+  -  Interquartile Range (IQR),
+  -  One‑Class Support Vector Machine (One‑Class SVM)
+  -  Isolation Forest
+- Principal Component Analysis (PCA) was used for visualisation
+- Comparisons made between the techniques results
 
 🚦 Running the Project
 ---
-Save file and run in collab
-Report attached explains high level view
+ipynb file can be run directly on google colab
 
 🎞️ Preview of the output 
 --- 
-:tada:
+Report attached has
+- Tables summarising anomalies by technique
+- PCA visualisations of anomalous data points
+
+Visualisation is used to support interpretation and highlight limitations.
+
+IQR and One‑Class SVM offer practical and complementary approaches, with IQR providing stronger interpretability. Isolation Forest shows the importance of validating model outputs and visualisation, rather than relying on them in isolation.
+
+🔭 Why this project? 
+--- 
+This project was undertaken to gain hands‑on experience with data science and machine learning techniques, with a focus on understanding model/measures behaviour, assumptions, and limitations in practice. The work supports a broader objective of strengthening practical understanding of ML and AI concepts that are increasingly relevant in technology risk, governance, and assurance contexts.
 
 :tada:
-...........
